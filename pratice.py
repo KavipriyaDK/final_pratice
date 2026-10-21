@@ -48,6 +48,6 @@ for s in sorted_students:
     print(f"{s['name']:<10}{s['Python']:<8}{s['Mathematics']:<8}{s['AI']:<8}{s['total']:<8}{s['percentage']:<10}{s['grade']:<5}")
 print("=" * 60)
 
-print(f"\n🏆 Class Topper: {topper['name']} with {topper['percentage']}%")
+print(f"\n Class Topper: {topper['name']} with {topper['percentage']}%")
 
-print(f"\n❌ Students who failed in one or more subjects: {', '.join(failed_students) if failed_students else 'None'}")
+print(f"\n Students who failed in one or more subjects: {', '.join(failed_students) if failed_students else 'None'}")
